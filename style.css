@@ -64,7 +64,6 @@ body {
   word-wrap: break-word;
   word-break: break-all;
   margin-bottom: 15px;
-  border: 1px solid red;
 }
 
 .output .previous-operand {
