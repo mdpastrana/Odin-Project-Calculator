@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: normal;
+  font-size: 62.5%;
 }
 
 body {
@@ -24,8 +25,8 @@ body {
   justify-content: center;
   align-content: center;
   grid-gap: 15px;
-  grid-template-columns: repeat(4, 120px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 120px);
+  grid-template-columns: repeat(4, 7rem);
+  grid-template-rows: minmax(12rem, auto) repeat(5, 6rem);
   background-color: #131c23;
   padding: 50px 30px;
   border-radius: 30px;
@@ -59,18 +60,19 @@ body {
   justify-content: space-around;
   flex-direction: column;
   padding: 30px;
-  height: 250px;
+  height: 20rem;
   word-wrap: break-word;
   word-break: break-all;
   margin-bottom: 15px;
+  border: 1px solid red;
 }
 
 .output .previous-operand {
-  color: #0d4c92;
-  font-size: 3.5rem;
+  color: #26303a;
+  font-size: 4rem;
 }
 
 .output .current-operand {
-  color: #0d4c92;
+  color: #26303a;
   font-size: 5rem;
 }
